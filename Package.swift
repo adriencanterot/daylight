@@ -3,6 +3,12 @@ import PackageDescription
 
 let package = Package(
     name: "Daylight",
+    products: [
+        .library(
+            name: "Daylight",
+            targets: ["Daylight"]
+        ),
+    ],
     targets: [
         .target(
             name: "Daylight",
